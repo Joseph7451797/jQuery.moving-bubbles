@@ -1,0 +1,12 @@
+body{background:black;}
+/* 4 different background colors */
+.c0{background:yellow;}
+.c1{background:green;}
+.c2{background:red;}
+.c3{background:orange;}
+/* 5 different sizes */
+.g0{height:46px;width:46px;border-radius:23px;}
+.g1{height:16px;width:16px;border-radius:8px;}
+.g2{height:22px;width:22px;border-radius:11px;}
+.g3{height:28px;width:28px;border-radius:14px;}
+.g4{height:38px;width:38px;border-radius:19px;}
