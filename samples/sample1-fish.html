@@ -12,14 +12,16 @@
     $(document).ready(function (e) {
 
         //Start moving fish with default options
-        $('.fish').startMoving();
+        //$('.fish').startMoving();
+	$('.fish').movingBubble().click(function(){$(this).movingBubble('toggle');});
 
         //Start moving fish with options
         //maxHeight = height bound for moving
         //maxWidth = width bound for moving
         //minDuration = minimun length of animation
         //deltaDuration = maximum random number to be added to the minDuration
-        $('#block').startMoving({ maxHeight: 400, maxWidth: 300, minDuration: 3000, deltaDuration: 1 });
+        //$('#block').startMoving({ maxHeight: 400, maxWidth: 300, minDuration: 3000, deltaDuration: 1 });
+	$('#block').movingBubble({ maxHeight: 400, maxWidth: 300, minDuration: 3000, deltaDuration: 1 }).click(function(){$(this).movingBubble('toggle');});
     });
 </script>
 </head>
